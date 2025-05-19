@@ -1,0 +1,42 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  margin: 20px;
+  text-align: left;
+}
+
+canvas {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid #444;
+  box-shadow: 0 0 10px #000;
+}
+
+button, .p5Button, .p5Slider {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover, .p5Button:hover {
+  background-color: #333;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #0ff;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+}
